@@ -25,3 +25,24 @@
   --ifm-color-primary-lighter: #1c90a7;
   --ifm-color-primary-lightest: #31bcd8;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+  nav .navbar__items {
+    font-size: 30px;
+    font-family: "Amatic SC";
+  }
+
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Noto+Sans+TC:wght@100..900&display=swap");
+
+html {
+  font-family: "Noto Sans TC", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+code, .token {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
