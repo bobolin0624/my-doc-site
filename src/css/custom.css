@@ -46,3 +46,6 @@ code, .token {
   font-style: normal;
 }
 
+code {
+  color: #e63946;
+}
