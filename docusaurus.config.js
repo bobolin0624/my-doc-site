@@ -75,16 +75,22 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'codeNoteSidebar',
             position: 'left',
-            label: 'Notes',
+            label: 'Code Notes',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+            type: 'docSidebar',
+            sidebarId: 'musicNoteSidebar',
+            position: 'left',
+            label: 'Music Notes',
+          }
+          // {to: '/blog', label: 'Blog', position: 'left'},
+          // {
+          //   href: 'https://github.com/facebook/docusaurus',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {

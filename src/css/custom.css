@@ -27,8 +27,8 @@
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
-  nav .navbar__items {
-    font-size: 30px;
+  nav .navbar__items .navbar__title {
+    font-size: 32px;
     font-family: "Amatic SC";
   }
 
