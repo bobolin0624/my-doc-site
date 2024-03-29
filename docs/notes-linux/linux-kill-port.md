@@ -11,14 +11,14 @@
 
 此時就可以利用語法來檢查哪個程序在佔用
 
-```shell
+```bash
 lsof -wni tcp:{port}
 ```
 
 接著就會看到哪些 process 在使用這個 port，並且列出 PID\
 終止該進程釋放該 port 的指令很簡單 (殺了他~~)
 
-```shell
+```bash
 kill {PID}
 ```
 

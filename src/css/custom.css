@@ -28,7 +28,8 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
   nav .navbar__items .navbar__title {
-    font-size: 32px;
+    font-size: 36px;
+    font-weight: 700;
     font-family: "Amatic SC";
   }
 
