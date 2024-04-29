@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Code',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/undraw_programmer_re_owql.svg').default,
     description: (
       <>
         Record my coding blogs and notes, focusing on JavaScript, MongoDB, Redis, and more.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Chord',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/undraw_compose_music_re_wpiw.svg').default,
     description: (
       <>
         Record my guitar learning notes or share creations.

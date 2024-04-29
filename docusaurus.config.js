@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'BoLog',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Make some Code & Chord',
   favicon: 'img/favicon-bobo.ico',
 
   // Set the production url of your site here
@@ -69,7 +69,7 @@ const config = {
       navbar: {
         title: 'BoLog',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'BoLog Site Logo',
           src: 'img/logo-bobo.svg',
         },
         items: [

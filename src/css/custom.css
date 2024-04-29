@@ -6,13 +6,13 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #173b44;
-  --ifm-color-primary-dark: #15353d;
-  --ifm-color-primary-darker: #14323a;
-  --ifm-color-primary-darkest: #102930;
-  --ifm-color-primary-light: #19414b;
-  --ifm-color-primary-lighter: #1a444e;
-  --ifm-color-primary-lightest: #1e4d58;
+  --ifm-color-primary: #2e4f85;
+  --ifm-color-primary-dark: #294778;
+  --ifm-color-primary-darker: #274371;
+  --ifm-color-primary-darkest: #20375d;
+  --ifm-color-primary-light: #335792;
+  --ifm-color-primary-lighter: #355b99;
+  --ifm-color-primary-lightest: #3c67ad;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -27,11 +27,12 @@
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
-  nav .navbar__items .navbar__title {
-    font-size: 36px;
-    font-weight: 700;
-    font-family: "Amatic SC";
-  }
+
+nav .navbar__items .navbar__title {
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Amatic SC";
+}
 
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Noto+Sans+TC:wght@100..900&display=swap");
 
@@ -41,7 +42,8 @@ html {
   font-style: normal;
 }
 
-code, .token {
+code,
+.token {
   font-family: "JetBrains Mono", monospace;
   font-optical-sizing: auto;
   font-style: normal;
@@ -49,4 +51,19 @@ code, .token {
 
 code {
   color: #e63946;
+}
+
+.hero__title {
+  font-family: "Amatic SC";
+  font-size: 48px;
+}
+
+.hero__subtitle {
+  font-family: "Amatic SC";
+  font-weight: bolder;
+  color: #0ce7c3;
+  display: inline-block;
+  width: auto;
+  max-width: 100%;
+  padding: 6px;
 }

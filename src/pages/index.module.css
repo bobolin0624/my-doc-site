@@ -8,6 +8,13 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  background-image: url('@site/static/img/cover-sea.jpg');
+  
+  background-color: rgba(0, 0, 0, .4);
+ 
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
 }
 
 @media screen and (max-width: 996px) {
