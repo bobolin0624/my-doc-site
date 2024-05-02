@@ -97,46 +97,42 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Notes',
+            title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Docs',
                 to: '/notes/intro',
-              },
-            ],
+              }
+            ]
           },
           {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'GitHub',
+                href: 'https://github.com/BoboLin0624'
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/chia-an-lin-ba2a03218/'
+              }
+            ]
           },
           {
-            title: 'More',
+            title: 'Funny',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Instagram',
+                href: 'https://github.com/BoboLin0624'
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
+                label: 'Youtube',
+                href: 'https://github.com/BoboLin0624'
+              }
+            ]
+          }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} BoLog. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
