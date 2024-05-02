@@ -6,24 +6,24 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e4f85;
-  --ifm-color-primary-dark: #294778;
-  --ifm-color-primary-darker: #274371;
-  --ifm-color-primary-darkest: #20375d;
-  --ifm-color-primary-light: #335792;
-  --ifm-color-primary-lighter: #355b99;
-  --ifm-color-primary-lightest: #3c67ad;
+  --ifm-color-primary: #009895;
+  --ifm-color-primary-dark: #008986;
+  --ifm-color-primary-darker: #00817f;
+  --ifm-color-primary-darkest: #006a68;
+  --ifm-color-primary-light: #00a7a4;
+  --ifm-color-primary-lighter: #00afab;
+  --ifm-color-primary-lightest: #00c6c2;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #648c94;
-  --ifm-color-primary-dark: #2196ae;
-  --ifm-color-primary-darker: #1f8ea4;
-  --ifm-color-primary-darkest: #1a7587;
-  --ifm-color-primary-light: #27afcb;
-  --ifm-color-primary-lighter: #1c90a7;
-  --ifm-color-primary-lightest: #31bcd8;
+  --ifm-color-primary: #66d6d0;
+  --ifm-color-primary-dark: #4dcfc8;
+  --ifm-color-primary-darker: #41ccc5;
+  --ifm-color-primary-darkest: #2faea8;
+  --ifm-color-primary-light: #7fddd8;
+  --ifm-color-primary-lighter: #8be0db;
+  --ifm-color-primary-lightest: #b1eae7
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
@@ -56,6 +56,7 @@ code {
 .hero__title {
   font-family: "Amatic SC";
   font-size: 48px;
+  color: white;
 }
 
 .hero__subtitle {
