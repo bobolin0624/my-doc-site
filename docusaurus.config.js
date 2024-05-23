@@ -77,16 +77,16 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'codeNoteSidebar',
             position: 'left',
-            label: 'Code Notes',
+            label: 'Code',
           },
           {
             type: 'docSidebar',
             sidebarId: 'musicNoteSidebar',
             position: 'left',
-            label: 'Music Notes',
+            label: 'Music',
           },
-          // {to: '/blog', label: 'Blog', position: 'left'},
           { to: '/about-me', label: 'About', position: 'right' }
+          // {to: '/blog', label: 'Blog', position: 'left'}
         ],
       },
       footer: {
@@ -97,7 +97,7 @@ const config = {
             items: [
               {
                 label: 'Docs',
-                to: '/docs/intro',
+                to: '/docs/category/javascript',
               }
             ]
           },
