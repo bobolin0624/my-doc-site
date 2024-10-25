@@ -1,5 +1,5 @@
 ---
-title: Deploy - AWS 服務初體驗
+title: DevOps - AWS 服務初體驗
 date: 2021-10-28 10:23:32
 categories: Project
 tags:
