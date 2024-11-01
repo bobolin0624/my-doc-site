@@ -9,8 +9,7 @@ tags:
 
 # MongoDB.local 大會分享
 
-首次參加 MongoDB.local 大會，主要帶著一個吃 buffet，什麼都來一點的心態來聽\
-，不過也設定了三個小目標：
+首次參加 MongoDB.local 大會，主要帶著一個吃 buffet，什麼都來一點的心態來聽，不過也設定了三個小目標：
 
 -   了解 MongoDB 7.0 的新功能與優化
 -   聽聽議程中各行業的商業模式與使用 MongoDB 的契機
