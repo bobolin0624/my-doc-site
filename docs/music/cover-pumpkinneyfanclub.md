@@ -5,7 +5,7 @@ categories: cover
 tags:
 - cover
 - streetvoice
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 ###### cover from 我多麽想成為你的鹿 - 南瓜妮歌迷俱樂部

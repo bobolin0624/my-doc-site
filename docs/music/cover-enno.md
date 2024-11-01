@@ -5,7 +5,7 @@ categories: cover
 tags:
 - cover
 - streetvoice
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 ###### cover from 還是會害怕失去你 - 鄭宜農

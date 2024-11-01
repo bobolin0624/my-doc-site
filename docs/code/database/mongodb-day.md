@@ -1,5 +1,10 @@
 ---
-# sidebar_position: 1
+title: MongoDB.local 
+date: 2024-07-18 12:02:02
+categories: database
+tags:
+- mongodb
+- seminar
 ---
 
 # MongoDB.local 大會分享
