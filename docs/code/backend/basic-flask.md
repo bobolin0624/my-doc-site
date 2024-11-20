@@ -150,5 +150,20 @@ import os
 
 
 
-###### End
+###### 前端
+
+接下來是畫面的部份，可以直接使用基本的 HTML / CSS / JS 完成，呼叫 Flask 所開發的 API 呈現 CRUD 操作結果。
+專案結構大致如下
+```
+project/
+├── app.py
+├── templates/
+│   └── index.html
+├── static/
+│   ├── styles.css
+│   └── api.js
+└── users.json
+```
+
+剩下的切版與細節部份就不贅述囉，把我練習的 [repo](https://github.com/bobolin0624/flask-easy-management/tree/develop) 放上來供參~~
 
