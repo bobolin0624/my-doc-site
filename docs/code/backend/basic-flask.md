@@ -12,7 +12,7 @@ sidebar_position: 1
 利用 chatGPT 協助開發 python ＆ flask 的簡易心得
 
 
-##### 緣起
+## 緣起
 
 此專案的目的單純是為了我想在本機端快速查找客戶資料，目前是寫在 .md 用 vscode ctrl + f 搜尋，但隨著客戶量越來越多希望可以有更好的整理，需求則是越輕量越好。
 
@@ -24,7 +24,7 @@ sidebar_position: 1
 
 平時工作上都以寫 JavaScript 為主，因此這次練習我選擇了 Python + Flask，不過 Electron 可以製作桌面應用，未來有機會也可以寫寫看。
 
-Let's start!
+**Let's start!**
 
 我的 Python 版本是 `Python 3.8.10`
 
@@ -43,12 +43,12 @@ $ . .venv/bin/activate
 pip install Flask
 ```
 
-##### Flask 簡介
+## Flask 簡介
 先來看一下 Flask 是什麼好了，Flask 是一個輕量的 Web 程式框架，用 Python 語言開發。
 有接觸過 Python 的人應該都知道還有另一個 Web 框架叫做 FastAPI，目前待的團隊中有部份人就是使用 FastAPI 開發的，有一個令人羨慕的功能就是自動產出 Swagger 文件 :+1: ，而 Flask 則有大量的第三方套件可以使用。
 另外在效能上，FastAPI 似乎在處理大規模請求的狀況下表現較佳，也支援異步處理，不過因為這只是我個人的小練習加上只在本機執行使用，因此最後我選擇使用較好上手的 Flask。
 
-##### 建立 Flask 應用
+## 建立 Flask 應用
 接著在專案中新增 `app.py` 檔案
 
 ```python!
@@ -64,7 +64,7 @@ def hello_world():
 接著在 terminal 中執行 `flask run`，會看到一行
 `Running on http://127.0.0.1:5000`，代表服務已經跑起來了，可以使用瀏覽器打開，將會看到瀏覽器顯示 Hello, World! 的文字。
 
-###### 基本 CRUD 操作
+### 基本 CRUD 操作
 
 在後端專案中，最基礎也最常見的功能莫過於 CRUD 的 API 操作。
 以下介紹如何使用 Flask 框架完成，另外在練習 Flask 的時候因為存放資料的安全問題因此我沒有使用到資料庫，而是選擇使用 json 的套件存放 json file 在 local 中，因此如果想使用像 SQLite 或其他的資料庫，則需要另外學習相關的 ORM 或 query 語法。
@@ -148,9 +148,7 @@ import os
             return jsonify({'error': str(e)}), 500
     ```
 
-
-
-###### 前端
+### UI 介面
 
 接下來是畫面的部份，可以直接使用基本的 HTML / CSS / JS 完成，呼叫 Flask 所開發的 API 呈現 CRUD 操作結果。
 專案結構大致如下

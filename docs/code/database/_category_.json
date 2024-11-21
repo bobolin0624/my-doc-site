@@ -1,6 +1,6 @@
 {
   "label": "Database",
-  "position": 2,
+  "position": 1,
   "link": {
     "type": "generated-index",
     "description": "筆記 Database 相關的知識，目前主要常用的是 MongoDB / Redis"

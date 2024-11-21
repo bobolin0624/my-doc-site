@@ -1,6 +1,6 @@
 # Linux 語法 - 如何安裝驅動程式
 
-##### 以 NVIDIA 的顯示驅動程式為例
+### 以 NVIDIA 的顯示驅動程式為例
 
 - 首先到官方找到要下載的 driver run 檔案  
   [download](https://www.nvidia.com/zh-tw/drivers/unix/linux-amd64-display-archive/)
@@ -20,7 +20,7 @@ sudo sh ./{NVIDIA_driver file}
 ```
 - 安裝完成 `sudo telnit 5` 回到 GUI 介面
 
-##### 以 Realtek 網卡安裝 WiFi 驅動程式為例
+### 以 Realtek 網卡安裝 WiFi 驅動程式為例
 
 - 安裝開發工具用於編譯驅動程式
 

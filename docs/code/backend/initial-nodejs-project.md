@@ -9,12 +9,12 @@ tags:
 sidebar_position: 1
 ---
 
-#### 新建專案
+## 新建專案
 
 這篇文章會按照我平常的步驟說明如何從零開始建立一個使用 Node.js、Express.js 和 MongoDB 的專案。有時候一不小心太久沒開新專案就會忘了一些步驟，因此整理下來可以方便查找。
 [note] 在建立前，記得先安裝好 node / npm
 
-##### init project
+## init project
 
 - 建立專案名稱
 ```bash=
@@ -47,7 +47,7 @@ npm install express
 }
 ```
 
-##### db setting （以 mongo 為例）
+## db setting （以 mongo 為例）
 
 - 若沒有可連線的資料庫，可以利用 mongo compass 或 atlas 建立一個新的專案資料庫
 
@@ -63,7 +63,7 @@ npm install mongoose
 
 3. 在 models 資料夾中建立需要的 Schema 
 
-##### GIT init
+## GIT init
 
 別忘了進行 git 設定做好版本控制
 

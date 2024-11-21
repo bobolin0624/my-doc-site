@@ -13,12 +13,12 @@ sidebar_position: 1
 
 # Project - simple expense tracker
 
-#### Why this project
+## Why this project
 
 在學習後端開發的路途中，CRUD (Create, Read, Update, Delete) 以及資料的處理是學習的必經路程<!-- more -->，為了多次的產出練習，除了一開始最常入門的 Todo-List 外，也思考生活上最常使用增刪改查的應用，因為自己每天都有使用記帳 app，所以也因此實作了簡單的 Web 版本。
 
 
-#### Using 
+## Using Tech
 
 後端：Node.js + Express.js
 登入機制： passport.js
@@ -28,7 +28,7 @@ sidebar_position: 1
 部署：heroku
 
 
-#### Challenges and sharing
+## Challenges and sharing
 
 Bootstrap 的排版與 CRUD 的基本功能撰寫上，因為練習較多次的關係，相對是能掌握的部分！
 

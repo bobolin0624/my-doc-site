@@ -75,17 +75,23 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'codeNoteSidebar',
+            sidebarId: 'mySidebar',
             position: 'left',
-            label: 'Code',
+            label: 'Notes'
           },
-          {
-            type: 'docSidebar',
-            sidebarId: 'musicNoteSidebar',
-            position: 'left',
-            label: 'Music',
-          },
-          { to: '/about-me', label: 'About', position: 'right' }
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'codeNoteSidebar',
+          //   position: 'left',
+          //   label: 'Code',
+          // },
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'musicNoteSidebar',
+          //   position: 'left',
+          //   label: 'Music',
+          // },
+          { to: '/about-me', label: 'About', position: 'left' }
           // {to: '/blog', label: 'Blog', position: 'left'}
         ],
       },
