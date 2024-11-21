@@ -45,7 +45,7 @@ pip install Flask
 
 ## Flask 簡介
 先來看一下 Flask 是什麼好了，Flask 是一個輕量的 Web 程式框架，用 Python 語言開發。
-有接觸過 Python 的人應該都知道還有另一個 Web 框架叫做 FastAPI，目前待的團隊中有部份人就是使用 FastAPI 開發的，有一個令人羨慕的功能就是自動產出 Swagger 文件 :+1: ，而 Flask 則有大量的第三方套件可以使用。
+有接觸過 Python 的人應該都知道還有另一個 Web 框架叫做 FastAPI，目前待的團隊中有部份人就是使用 FastAPI 開發的，有一個令人羨慕的功能就是自動產出 Swagger 文件 ☝️ ，而 Flask 則有大量的第三方套件可以使用。
 另外在效能上，FastAPI 似乎在處理大規模請求的狀況下表現較佳，也支援異步處理，不過因為這只是我個人的小練習加上只在本機執行使用，因此最後我選擇使用較好上手的 Flask。
 
 ## 建立 Flask 應用

@@ -93,7 +93,7 @@ node_modules
 .env
 ```
 
-完成後就可以進行第一筆 commit 囉
+完成後就可以進行第一筆 commit 囉 ✌️
 ```bash
 git add .
 

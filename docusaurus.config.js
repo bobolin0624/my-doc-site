@@ -103,7 +103,7 @@ const config = {
             items: [
               {
                 label: 'Docs',
-                to: '/docs/category/javascript',
+                to: '/docs/category/backend-develop',
               }
             ]
           },
@@ -121,15 +121,11 @@ const config = {
             ]
           },
           {
-            title: 'Funny',
+            title: 'Fun Fact',
             items: [
               {
                 label: 'Instagram',
-                href: 'https://github.com/BoboLin0624'
-              },
-              {
-                label: 'Youtube',
-                href: 'https://github.com/BoboLin0624'
+                href: 'https://www.instagram.com/ritf0624/'
               }
             ]
           }
