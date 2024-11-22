@@ -13,11 +13,11 @@ sidebar_position: 1
 
 使用 AWS [Elastic Beanstalk](https://aws.amazon.com/tw/elasticbeanstalk/) 與 [RDS](https://aws.amazon.com/tw/rds/) 服務部署網站
 
-## Why AWS?
+### Why AWS?
 
 部署在部分公司也成了工程師必備的技能之一，通常最常看到的就是 AWS ，當然還有 GCP 與 AZURE，不過 AWS 是這三大最早出現的，所以就先挑他來做練習。
 
-## What is AWS? 
+### What is AWS? 
 
 看起來包山包海的，所以他到底是什麼？ 官網寫著：
 > Amazon Web Services 是全球最全面和廣泛採納的雲端平台，透過全球資料中心提供超過 200 項功能完整的服務。數百萬個客戶 — 包括成長最快的新創公司、最大型企業以及領先的政府機構 — 都使用 AWS 來降低成本、變得更靈活，且更迅速地創新。
@@ -36,7 +36,7 @@ Elastic Beanstalk 是 AWS 幫助開發者把 EC2 跟其他部署的建設基礎�
 
 <br />
 
-### *  ***.env 檔案 — 環境設定***
+#### *  ***.env 檔案 — 環境設定***
 
 這次練習的專案我有使用 Imgur 的 API 來做上傳圖片，如果專案有需要設定環境參數的話記得到「組態」的「環境屬性」做設定
 
@@ -46,7 +46,7 @@ Elastic Beanstalk 是 AWS 幫助開發者把 EC2 跟其他部署的建設基礎�
 
 <br />
 
-### * ***有錢才能任性：建立 Database — region 也很重要***
+#### * ***有錢才能任性：建立 Database — region 也很重要***
 
 我在本機先使用了 MySQL 做開發，所以就選擇使用 Amazon RDS 來與應用程式串接
 
@@ -56,7 +56,7 @@ Elastic Beanstalk 是 AWS 幫助開發者把 EC2 跟其他部署的建設基礎�
 
 <br />
 
-### * ***專案部署設定***
+#### * ***專案部署設定***
 
 Elastic Beanstalk 部署可以用上傳檔案的方式，似乎也可以使用 EB CLI 與 Docker 的方式部署（之後再找機會嘗試），這次我是先使用了壓縮專案成 ZIP 檔案上傳的方式部署，專案先將 config.json 檔案的 production 設定完成後，將專案打包上傳，部署完後滿心期待點了網址卻一直出現轉圈圈的狀況，毫無頭緒的我，第一個想法是看 LOG 檔報了什麼錯，但在 AWS 上的 Log 去哪看呢？ 就在「日誌」裡頭，「請求日誌」點下去可以選擇要全部的還是只要 100 行，下載下來是個 ZIP 檔，解壓縮後找到 web.stdout.log 這個檔案，就可以看到 log 了 :+1: 
 

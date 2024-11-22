@@ -68,3 +68,7 @@ code {
   max-width: 100%;
   padding: 6px;
 }
+
+header h1 {
+  font-size: 36px;
+}
