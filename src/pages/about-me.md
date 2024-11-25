@@ -27,9 +27,6 @@ When I'm not coding, you'll often find me strumming my guitar, exploring new des
   
 ### Side Projects
 
-
-## Projects
-
 | Project Name           | Description                                         | Tech Stack
 |------------------------|-----------------------------------------------------|----------------------------
 | **[Expense Tracker](https://github.com/bobolin0624/expense-tracker)** | A web app for tracking expenses with filtering by categories and dates. Includes user authentication. | Node.js, Express, MongoDB, Bootstrap
