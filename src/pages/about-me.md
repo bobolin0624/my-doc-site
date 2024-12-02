@@ -29,6 +29,6 @@ When I'm not coding, you'll often find me strumming my guitar, exploring new des
 
 | Project Name           | Description                                         | Tech Stack
 |------------------------|-----------------------------------------------------|----------------------------
-| **[Expense Tracker](https://github.com/bobolin0624/expense-tracker)** | A web app for tracking expenses with filtering by categories and dates. Includes user authentication. | Node.js, Express, MongoDB, Bootstrap
-| **[Py Line Bot Accuracy](https://github.com/bobolin0624/py-line-bot-accuracy)** | A Line bot to provide currency exchange rate information. Built for Python practice. | Python, Flask, LINE Messaging API     | [GitHub](https://github.com/bobolin0624/py-line-bot-accuracy) |
-| **[Flask Easy Management](https://github.com/bobolin0624/flask-easy-management)** | A management system prototype for teams, featuring task tracking and user management. | Python, Flask, Bootstrap |
+| **[Expense Tracker](https://github.com/bobolin0624/expense-tracker)** | A web app for tracking easy expenses with filtering by categories and dates. Includes user authentication. | Node.js, Express, MongoDB, Bootstrap
+| **[Py Line Bot Accuracy](https://github.com/bobolin0624/py-line-bot-accuracy)** | Practice Line bot to provide currency exchange rate information. Built for Python practice. | Python, Flask, LINE Messaging API     | [GitHub](https://github.com/bobolin0624/py-line-bot-accuracy) |
+| **[Flask Easy Management](https://github.com/bobolin0624/flask-easy-management)** | A management system prototype for self tools, featuring user connection management. | Python, Flask, Bootstrap |
