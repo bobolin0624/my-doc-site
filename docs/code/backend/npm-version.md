@@ -1,6 +1,6 @@
 ---
 title: npm & lockfileVersion 版本衝突紀錄
-date: 2023-12-02 11:32:00
+date: 2024-12-02 11:32:00
 categories: Note
 tags:
 - node.js
@@ -9,6 +9,7 @@ tags:
 sidebar_position: 1
 ---
 
+### topic
 在專案開發過程中，升級套件和 Node.js 版本是常見的情況。然而，這個過程可能會遇到一些意想不到的挑戰，特別是在持續整合（CI）環境中。某次專案開發時剛好遇到需要升級套件的狀況，升級套件又剛好需要更高版本的 nodejs 才支援，然後就在途中遇到了 gitlab runner build code 失敗的狀況，以下藉此紀錄一下解決方法。
 
 ### 問題
