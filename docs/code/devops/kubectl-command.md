@@ -18,10 +18,10 @@ kubectl [command] [TYPE] [NAME] [flags]
 
 細節說明
 
-`command` - 執行的操作，包含像是 get, delete, describe, ... 等
-`type` - 資源類型，包含 pod, service, deployment, ... 等
-`NAME` - 為要操作的資源名稱
-`flags` - 其他選項參數
+- `command` - 執行的操作，包含像是 get, delete, describe, ... 等
+- `type` - 資源類型，包含 pod, service, deployment, ... 等
+- `NAME` - 為要操作的資源名稱
+- `flags` - 其他選項參數
 
 這樣會有點抽象，下面列出一些實用的操作
 
