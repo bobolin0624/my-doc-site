@@ -165,3 +165,6 @@ project/
 
 剩下的切版與細節部份就不贅述囉，把我練習的 [repo](https://github.com/bobolin0624/flask-easy-management/tree/develop) 放上來供參~~
 
+#### 心得
+
+基本上我後續開發沒有完全依賴 chatGPT 給的指示做專案，不過相比之前利用所知關鍵字查找及過濾資訊的學習方法上，以及 debug 的速度上有 chatGPT 的協助真的快速許多。最終還是比較建議開發先以官方文件為主，在遇到問題時也才能更知道怎麼提問。
