@@ -34,10 +34,12 @@ sidebar_position: 1
 ## 了解 NPM 版本控制符號
 
 來看看專案中 package.json 的套件版本寫法
-![image](https://i.imgur.com/xkreVpT.png)
+```javascript!
+"mongoose": "^6.5.5"
+```
 有一個前綴 `^`，這符號代表什麼呢？
 
-查看了一下 npm 文件，發現其實有說明
+查看了一下 npm 文件，發現其實有說明，以下挑出常用的版本控制寫法
 
 1. 無前綴（version）
     * 必須完全匹配指定版本
