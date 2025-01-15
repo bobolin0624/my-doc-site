@@ -19,8 +19,8 @@ sidebar_position: 1
     * 在 package.json 中指定新版本
     * 執行 npm install
 2. 直接更新特定套件：
-   * 執行 npm uninstall {package-name}
-   * 執行 npm install {package-name}@{version}
+   * 執行 `npm uninstall {package-name}`
+   * 執行 `npm install {package-name}@{version}`
 
 ## 意外發現的套件版本小坑
 
