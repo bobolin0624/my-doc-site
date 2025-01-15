@@ -43,7 +43,7 @@ sidebar_position: 1
 
 1. 無前綴（version）
     * 必須完全匹配指定版本
-    * 例："mongoose": "6.5.5"
+    * 例：`"mongoose": "6.5.5"`
 
 2. 波浪號（~version）
     * 「Approximately equivalent to version」
@@ -59,4 +59,6 @@ sidebar_position: 1
 所以當我們寫上 `^6.5.5` 指的並不是指定 `6.5.5` 版本，而是有條件的抓取更新版本，才會導致服務之間版本不一致的問題，若未來要指定安裝版本記得不要寫前綴就可以囉！
 
 
-另外 NPM 貼心的提供了一個工具可以查詢版本範圍：[semver calculator](https://semver.npmjs.com/)。只要輸入版本範圍，就能看到符合條件的所有版本。
+另外 NPM 貼心的提供了一個工具可以查詢版本範圍：[semver calculator](https://semver.npmjs.com/)。只要輸入版本範圍，就能看到符合條件的所有版本 ✌️
+
+結束！
