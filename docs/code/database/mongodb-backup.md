@@ -8,7 +8,7 @@ tags:
 - mongodump
 ---
 
-因公司產業的緣故，對於不同客戶會有特定的配置檔，因此有時需要將線上 MongoDB 的資料備份配置，以便進行分析或是準備修改先做備份準備。這篇文章紀錄如何使用 MongoDB 的工具備份現有資料，並將資料傳輸到本地環境的方法。
+備份是個好習慣！這篇文章紀錄如何使用 MongoDB 的工具備份現有資料，並將資料傳輸到本地環境的方法。
 
 ### 伺服器端需安裝 mongo-tools
 
@@ -48,6 +48,11 @@ tar -czvf back-up.tar a.json b.json c.json
 scp {username}@{ip}:/tmp/back-up.tar {local-path}
 ```
 
+若要進行 import，這時使用 mongoimport 指令，就可以將 json 檔案匯入到 db
+
+```bash!
+mongoimport --host <host-ip> --port <port> --db {dbname} --collection {collection-name} --file xxx.json --jsonArray
+```
 
 #### 使用 mongodump
 
