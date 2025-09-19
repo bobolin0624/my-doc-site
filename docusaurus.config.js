@@ -141,8 +141,8 @@ const config = {
             title: 'Fun Fact',
             items: [
               {
-                label: 'Instagram',
-                href: 'https://www.instagram.com/ritf0624/'
+                label: 'Podcast',
+                href: 'https://podcasts.apple.com/us/podcast/%E6%88%91%E8%AC%9B%E8%81%BD%E4%BD%A0%E5%94%B1/id1840192102'
               }
             ]
           }
