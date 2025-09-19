@@ -11,17 +11,41 @@ When I'm not coding, you'll often find me strumming my guitar, exploring new des
 
 ---------------------------------------
 
-### Programming
-- JavaScript (Node.js + Express.js)
+<!-- ### Programming
+- JavaScript / TypeSript (Node.js + Express.js)
 - Python (Flask)
 - Dart (Flutter)
-- Database: MongoDB, MariaDB, Redis
+- Database: MongoDB, PostgreSQL, Firestore, Redis ,MariaDB
 - OS: Linux, macOS
 - DevOps: Kubernetes, Docker
-- Cloud: AWS (Elastic Beanstalk)
+- Cloud: AWS (Elastic Beanstalk) / GCP
 - GIT
 - HTML, CSS
-- Testing tools: JEST, k6
+- Testing tools: JEST, k6, mocha -->
+
+### Skills
+
+#### Programming & Frameworks
+- **JavaScript / TypeScript**: Node.js (LoopBack 4, Express.js)
+- **Python**: Flask
+- **Dart**: Flutter (Basic)
+
+#### Databases
+- **Relational DB**: PostgreSQL, MariaDB
+- **NoSQL**: MongoDB, Redis, Firestore
+
+#### DevOps / Infrastructure
+- Docker, Kubernetes / k3s
+- Git
+
+#### Cloud
+- **AWS**: Elastic Beanstalk
+- **GCP**: GCS (bucket upload, service account integration)
+- **MinIO**: S3-compatible storage & backup
+
+#### Testing / QA
+- Unit & Integration Testing: Jest, Mocha
+- Load / Performance Testing: k6
 
 <!-- (Programming) -->
   
