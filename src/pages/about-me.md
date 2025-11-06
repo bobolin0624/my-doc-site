@@ -50,7 +50,7 @@ When I'm not coding, you'll often find me strumming my guitar, exploring new des
 <!-- (Programming) -->
 ---
 
-### 💼 Projects & Case Studies
+### 💼 Projects & Case Studies Of Develop
 
 > 整理參與或主導過的開發與系統分析專案，包含後端架構設計、ERD 規劃、第三方整合與跨部門協作。涵蓋智慧製造、企業管理系統與即時通訊應用，專注於**後端架構設計**、**系統分析**與**效能優化**等。
 
@@ -141,12 +141,13 @@ B2C 租賃管理系統，管理自行車租賃業務全流程。
 `LINE Messaging API` `LIFF` `IoT Data Processing`
 
 
-### 💼 Project Manager 客戶與專案
+### 🤝 Cutstomer & Product Of Project Manager
 
-#### 野村投信內部系統
-#### 泰安產險
-#### 萊爾富行銷活動系統
-#### 衛福部 - 反性別暴力防治網
+- 野村投信內部系統
+- 業務王 APP
+- 泰安產險
+- 萊爾富行銷活動系統
+- 衛福部 - 反性別暴力防治網
 
 ---
   
