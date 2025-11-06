@@ -48,20 +48,12 @@ When I'm not coding, you'll often find me strumming my guitar, exploring new des
 - Load / Performance Testing: k6
 
 <!-- (Programming) -->
-
----
-title: 💼 Projects & Case Studies
-sidebar_position: 3
 ---
 
-整理參與或主導過的開發與系統分析專案，  
-涵蓋後端架構設計、資料分析、第三方整合與跨部門協作。
+### 💼 Projects & Case Studies
 
-### 💼 Developer 專案作品
+> 整理參與或主導過的開發與系統分析專案，包含後端架構設計、ERD 規劃、第三方整合與跨部門協作。涵蓋智慧製造、企業管理系統與即時通訊應用，專注於**後端架構設計**、**系統分析**與**效能優化**等。
 
-> 涵蓋智慧製造、企業管理系統與即時通訊應用，專注於**後端架構設計**、**系統分析**與**效能優化**等。
-
----
 
 #### 🏭 Smart Manufacturing Solutions
 
@@ -106,8 +98,6 @@ sidebar_position: 3
   - 📈 設計多層級電力數據報表（即時、日、月、年）
   - 🚀 RESTful API 設計
 
----
-
 #### 🚀 Enterprise & SaaS Applications
 
 ##### 自行車租賃管理系統
@@ -123,8 +113,6 @@ B2C 租賃管理系統，管理自行車租賃業務全流程。
   - 🔗 開發報表匯出功能，協助優化部份查詢效能
   - 🎫 根據業務邏輯調整費用計算功能
 
----
-
 ##### CRM LINE 即時通訊整合系統
 **後端開發 & LINE 串接**
 
@@ -137,7 +125,6 @@ B2C 租賃管理系統，管理自行車租賃業務全流程。
   - 💬 整合 LINE Messaging API，實現客服對話管理
   - 📎 開發文件傳輸功能（GCP）
 
----
 
 ### 🛠️ Technology Stack
 
@@ -153,7 +140,6 @@ B2C 租賃管理系統，管理自行車租賃業務全流程。
 **Integration & Others**  
 `LINE Messaging API` `LIFF` `IoT Data Processing`
 
----
 
 ### 💼 Project Manager 客戶與專案
 
@@ -162,6 +148,7 @@ B2C 租賃管理系統，管理自行車租賃業務全流程。
 #### 萊爾富行銷活動系統
 #### 衛福部 - 反性別暴力防治網
 
+---
   
 ### Side Projects
 
