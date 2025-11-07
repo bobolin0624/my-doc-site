@@ -46,3 +46,36 @@ n8n Workflow
 
 #### Step 1 申請 LINE BOT
 
+LINE Notify 已經停止服務了，所以需要申請 Line OA 官方帳號使用 LINE Messaging API 來推送訊息。
+
+如何申請 LINE Messaging API
+
+- 前往 [LINE Developers Console](https://developers.line.biz/en/)
+- 建立新的 Provider
+- 建立 Messaging API Channel，接著介面會引導去「Create a LINE Official Account」
+- 取得 `Channel Access Token`（重要：介接 Line API 會用到）
+- 用手機掃描 QR Code 加 Bot 好友，記得要先發送訊息給官方帳號進行互動過後，後續才能自動推播
+
+#### Step 2 先在本機建立 n8n workflow
+
+1. install n8n 
+可以使用 docker run 起來，但如果電腦已經安裝過 Node.js 的話，也可以直接執行 `npx n8n` 進行安裝，執行後要等待一小段時間...
+
+完成後會看到
+
+![alt text](static/img/doc-img/npx-n8n.png)
+
+註冊後進入到 dashboard 就可以開始建立第一個 workflow 囉～
+
+註：使用 docker run 執行的指令
+```
+docker run -it --rm \
+  --name n8n \
+  -p 5678:5678 \
+  -v ~/.n8n:/home/node/.n8n \
+  n8nio/n8n
+
+```
+
+2. 
+
