@@ -25,10 +25,10 @@ n8n 其實就是這樣一台「數位版的自動化咖啡機」（？）
 
 ### Project 目標
 
-✅ 每天固定時間 自動推送一個日文單字
-✅ 使用 Jisho API 隨機選擇單字
-✅ 透過 LINE Bot 發送到 line 對話
-✅ 完全免費部署在 Render
+✅ 每天固定時間 自動推送一個日文單字 <br />
+✅ 使用 Jisho API 隨機選擇單字 <br />
+✅ 透過 LINE Bot 發送到 line 對話 <br />
+✅ 完全免費部署在 Render <br />
 
 ### Tech 選用
 
@@ -44,7 +44,7 @@ n8n Workflow
 └─ UptimeRobot (保持服務運行)
 ```
 
-#### Step 1 申請 LINE BOT
+### Step 1 申請 LINE BOT
 
 LINE Notify 已經停止服務了，所以需要申請 Line OA 官方帳號使用 LINE Messaging API 來推送訊息。
 
@@ -56,9 +56,9 @@ LINE Notify 已經停止服務了，所以需要申請 Line OA 官方帳號使�
 - 取得 `Channel Access Token`（重要：介接 Line API 會用到）
 - 用手機掃描 QR Code 加 Bot 好友，記得要先發送訊息給官方帳號進行互動過後，後續才能自動推播
 
-#### Step 2 先在本機建立 n8n workflow
+### Step 2 先在本機建立 n8n workflow
 
-1. install n8n 
+1. install n8n <br />
 可以使用 docker run 起來，但如果電腦已經安裝過 Node.js 的話，也可以直接執行 `npx n8n` 進行安裝，執行後要等待一小段時間...
 
 完成後會看到
@@ -81,16 +81,16 @@ docker run -it --rm \
 
 每個動作都需要建立一個節點，我這次的工具總共使用了四個節點
 
-- 節點 1 Schedule Trigger
-  排程設定目標：每天早上 09:00 進行一次
-  設定內容：
-  * Trigger Interval: Cron
-  * Cron Expression: 0 9 * * *（每天早上 9 點）
-  * Timezone: Asia/Taipei （這邊說明一下 workflow 的 timezone 設定，在 workflow 面板右上角「...」點擊選擇 Settings，Timezone 選擇你要的時區）
+- `節點 1` Schedule Trigger
+  - 排程設定目標：每天早上 09:00 進行一次
+  - 設定內容：
+    * Trigger Interval: Cron
+    * Cron Expression: 0 9 * * *（每天早上 9 點）
+    * Timezone: Asia/Taipei （這邊說明一下 workflow 的 timezone 設定，在 workflow 面板右上角「...」點擊選擇 Settings，Timezone 選擇你要的時區）
 
-  ![alt text](/img/doc-img/timezone.png)
+    ![alt text](/img/doc-img/timezone.png)
 
-- 節點 2 
+- `節點 2` HTTP Request - 取得日文單字
 
-3. 匯出 Workflow
+###  匯出 Workflow
 
