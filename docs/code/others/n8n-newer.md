@@ -14,7 +14,7 @@ sidebar_position: 1
 雖然 n8n 已經流行一段時間了，不過我一直都還沒真正動手接觸。這次決定花點時間快速入門，做個小工具來體驗看看 n8n 的魅力，也順便打造一個每天自動推送日文單字到 LINE 的學習小幫手。
 
 那麼，什麼是 n8n 呢？
-你想像一下，你每天都有一些固定要執行的任務：起床後洗漱、泡一杯咖啡、開啟一天的工作。現在市面上甚至有能設定「每天自動泡好咖啡」的咖啡機，只要事先設定時間，它就會自動完成整個流程。
+想像一下，每天都有一些固定要執行的任務：起床後洗漱、泡一杯咖啡、開啟一天的工作。現在市面上甚至有能設定「每天自動泡好咖啡」的咖啡機，只要事先設定時間，它就會自動完成整個流程。
 
 n8n 其實就是這樣一台「數位版的自動化咖啡機」（？）
 它是一款開源的自動化工作流程（workflow automation）平台，透過視覺化的節點介面，你可以自由串接各種 API、資料庫或雲端服務，不用額外撰寫伺服器程式碼，就能快速打造屬於自己的自動化任務──例如每天抓天氣資料並推送通知、或自動篩選重要信件並備份。
@@ -63,7 +63,7 @@ LINE Notify 已經停止服務了，所以需要申請 Line OA 官方帳號使�
 
 完成後會看到
 
-![alt text](static/img/doc-img/npx-n8n.png)
+![alt text](/img/doc-img/npx-n8n.png)
 
 註冊後進入到 dashboard 就可以開始建立第一個 workflow 囉～
 
@@ -88,7 +88,7 @@ docker run -it --rm \
   * Cron Expression: 0 9 * * *（每天早上 9 點）
   * Timezone: Asia/Taipei （這邊說明一下 workflow 的 timezone 設定，在 workflow 面板右上角「...」點擊選擇 Settings，Timezone 選擇你要的時區）
 
-  ![alt text](static/img/doc-img/timezone.png)
+  ![alt text](/img/doc-img/timezone.png)
 
 - 節點 2 
 
