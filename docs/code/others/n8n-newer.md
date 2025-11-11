@@ -77,5 +77,20 @@ docker run -it --rm \
 
 ```
 
-2. 
+2. 建立 Workflow
+
+每個動作都需要建立一個節點，我這次的工具總共使用了四個節點
+
+- 節點 1 Schedule Trigger
+  排程設定目標：每天早上 09:00 進行一次
+  設定內容：
+  * Trigger Interval: Cron
+  * Cron Expression: 0 9 * * *（每天早上 9 點）
+  * Timezone: Asia/Taipei （這邊說明一下 workflow 的 timezone 設定，在 workflow 面板右上角「...」點擊選擇 Settings，Timezone 選擇你要的時區）
+
+  ![alt text](static/img/doc-img/timezone.png)
+
+- 節點 2 
+
+3. 匯出 Workflow
 
