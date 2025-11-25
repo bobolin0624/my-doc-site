@@ -187,5 +187,5 @@ docker run -it --rm \
 
 最後的最後，附上我的成品，目前已經運行了兩週，有分享給一個也在學日文的朋友使用，也算是小有成就感～
 
-![alt text](/img/doc-img/nohongogogo-line.jpg)
+![alt text](/img/doc-img/nihongogogo-line.jpg)
 
