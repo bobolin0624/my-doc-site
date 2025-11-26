@@ -1,5 +1,5 @@
 ---
-title: 演算法筆記 - LeetCode 128: 為什麼 Sorting 不行？從直覺到 O(n) 的思考轉變
+title: "演算法筆記 - LeetCode 128: 為什麼 Sorting 不行？從直覺到 O(n) 的思考轉變"
 date: 2025-11-26 02:46:00
 categories: Note
 tags:
