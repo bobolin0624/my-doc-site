@@ -26,24 +26,23 @@ Output: 4
 ### 未經大腦的直覺暴力解題
 
 ```js
-const sortedArr = nums.sort((a, b) => a - b)
-
+const sortedArr = nums.sort((a, b) => a - b);
 // 進行 for 迴圈檢查
-
 ```
+
 但題目明確寫到 `You must write an algorithm that runs in O(n) time.`，所以這樣的解法很明顯是不符合效能需求的。
 
 ### 突破時間複雜度
 
 既然排序已經不能用，對於看到 O(n) 的想法，可以先排除
 
-❌ Sort (排序)：通常是 $O(n \log n)$ </br>
-❌ 雙層迴圈 (暴力解)：通常是 $O(n^2)$ </br>
+❌ Sort (排序)：通常是 $O(n \log n)$  
+❌ 雙層迴圈 (暴力解)：通常是 $O(n^2)$  
 
 剩下常見的就是用
 
-✅ Hash Map / Set：用空間換時間 </br>
-✅ Two Pointers (雙指針)：在陣列上滑動 </br>
+✅ Hash Map / Set：用空間換時間  
+✅ Two Pointers (雙指針)：在陣列上滑動
 
 這題可以用 hash map 來解
 
